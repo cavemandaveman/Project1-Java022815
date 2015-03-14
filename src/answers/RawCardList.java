@@ -9,7 +9,6 @@ public class RawCardList {
 	
 	public RawCardList() {}
 	
-	
 	public List<String> getCardList() {
 		return cardList;
 	}

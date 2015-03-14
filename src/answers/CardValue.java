@@ -199,33 +199,16 @@ public class CardValue {
 		return p1CardTotal;
 	}
 
-	public void setCardTotal(int p1HighCard) {
-		this.p1CardTotal = p1HighCard;
-	}
-
 	public int getP2CardTotal() {
 		return p2CardTotal;
-	}
-
-	public void setP2CardTotal(int p2HighCard) {
-		this.p2CardTotal = p2HighCard;
 	}
 
 	public int getP1HighCard() {
 		return p1HighCard;
 	}
 
-	public void setP1HighCard(int p1HighCard) {
-		this.p1HighCard = p1HighCard;
-	}
-
 	public int getP2HighCard() {
 		return p2HighCard;
 	}
-
-	public void setP2HighCard(int p2HighCard) {
-		this.p2HighCard = p2HighCard;
-	}
 	
-
 }

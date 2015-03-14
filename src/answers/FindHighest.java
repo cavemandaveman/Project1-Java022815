@@ -10,7 +10,7 @@ public class FindHighest {
 	
 	public void handRating(List<Integer> value, List<Integer> suit) {
 		
-		if(value.get(4) + value.get(1) == 25 && suit.get(4) - suit.get(1) == 0 || value.get(4) + value.get(1) == 25 && suit.get(3) - suit.get(0) == 0) {
+		if(value.get(4) + value.get(0) == 24 && suit.get(4) - suit.get(0) == 0) {
 			rank = 10;
 			System.out.println("Royal Flush");
 		}
@@ -30,7 +30,7 @@ public class FindHighest {
 			rank = 6;
 			System.out.println("Flush");
 		}
-		else if(value.get(4) - value.get(0) == 4) {
+		else if(value.get(4) - value.get(0) == 4 || (value.get(3) - value.get(0) == 3 && value.get(4) - value.get(0) == 12)) {
 			rank = 5;
 			System.out.println("Straight");
 		}

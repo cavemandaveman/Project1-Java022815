@@ -38,7 +38,7 @@ public class p6a {
 			FindHighest high = new FindHighest();
 			int p1score = 0;
 			int p2score = 0;
-;
+
 			high.handRating(values.getNewValuesP1(), suits.getNewSuitsP1());
 			p1score = high.countTotal();;
 			high.handRating(values.getNewValuesP2(), suits.getNewSuitsP2());
@@ -65,6 +65,7 @@ public class p6a {
 			}
 		
 		reader.close();
+		fr.close();
 	  
 	    System.out.println("\nP1 Won " + counter + " rounds");
 	    
