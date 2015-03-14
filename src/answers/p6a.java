@@ -15,7 +15,7 @@ public class p6a {
 		FileReader fr = new FileReader("./src/resources/poker.txt");
 		BufferedReader reader = new BufferedReader(fr);
 
-		ReadCards read = new ReadCards();
+		RawCardList read = new RawCardList();
 		
 		String line = null;
 		

@@ -3,11 +3,11 @@ package answers;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReadCards {
+public class RawCardList {
 	
 	private List<String> cardList = new ArrayList<>();
 	
-	public ReadCards() {}
+	public RawCardList() {}
 	
 	
 	public List<String> getCardList() {

@@ -23,7 +23,7 @@ public class CardValue {
 
 	public CardValue() {}
 	
-	public void assignValue(ReadCards list) {
+	public void assignValue(RawCardList list) {
 		values.put("2C", 2);
         values.put("2D", 2);
         values.put("2H", 2);
@@ -82,7 +82,7 @@ public class CardValue {
         }
 	}
 	
-	public void assignSuits(ReadCards list) {
+	public void assignSuits(RawCardList list) {
 		suits.put("2C", 1);
 	    suits.put("2D", 2);
 	    suits.put("2H", 3);
